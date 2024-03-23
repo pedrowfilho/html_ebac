@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 120px auto;
+    max-width: 320px;
+    width: 100%;
+}
+
+form {
+    margin-top: 30px;
+}
+
+input,
+button {
+    display: block;
+    margin-bottom: 16px;
+    padding: 8px;
+    width: 100%;
+}
+
+button {
+    background-color: rgb(226, 86, 43);
+    color: #fff;
+    border: none;
+}
+
+button:hover {
+    background-color: rgb(221, 114, 81);
+}
+
+.mensagem {
+    background-color: rgb(221, 114, 81);
+    padding: 8px;
+    color: #fff;
+    display: none;
+}
